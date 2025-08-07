@@ -18,3 +18,5 @@ snr_map = np.random.uniform(0.4, 0.95, size=(GRID_X, GRID_Y, GRID_Z))
 np.save("data/channel_map.npy", snr_map)
 
 print("✅ Synthetic data generated.")
+
+#checking if it is uploaded on git or not
